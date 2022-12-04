@@ -40,40 +40,32 @@
         <p>3営業日以内をめどにご返信いたしますので、しばらくお待ちください。</p>
         <div class="mb-4">
         <h3 class="mt-4">送信内容</h3>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <div class="row">
+            <div class="row">
+                <table class="table">
+                    <tbody>
+                        <tr>
                             <th class="col-sm-2">会社名</th>
                             <td class="col-sm-10"><%= params['company'] %></td>
-                        </div>
-                    </tr>
-                    <tr>
-                        <div class="row">
+                        </tr>
+                        <tr>
                             <th class="col-sm-2">氏名</th>
                             <td class="col-sm-10"><%= params['name'] %></td>
-                        </div>
-                    </tr>
-                    <tr>
-                        <div class="row">
+                        </tr>
+                        <tr>
                             <th class="col-sm-2">メール</th>
                             <td class="col-sm-10"><%= params['mail'] %></td>
-                        </div>
-                    </tr>
-                    <tr>
-                        <div class="row">
+                        </tr>
+                        <tr>
                             <th class="col-sm-2">電話番号</th>
                             <td class="col-sm-10"><%= params['tel'] %></td>
-                        </div>
-                    </tr>
-                    <tr>
-                        <div class="row">
+                        </tr>
+                        <tr>
                             <th class="col-sm-2">内容</th>
                             <td class="col-sm-10"><%= params['content'].gsub(/\r\n|\r|\n/, "<br>") %></td>
-                        </div>
-                    </tr>
-                </tbody>
-            </table>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             
             
             <!-- 「戻る」ボタンを緑色にする設定を追加 -->
